@@ -16,69 +16,74 @@
 <body>
     <!--Главные ссылки в шапке сайта-->
     <header>
-        <nav>
-            <!-- добавить ссылку на портфолио, разобратся, почему возникает ошибка 404-->
-            <a class="side-logo" href="WebStudio"><span class="style-logo">Web</span>Studio</a>
-            <ul>
+        <div class="border-header">
+            <nav>
+                <!-- добавить ссылку на портфолио, разобратся, почему возникает ошибка 404-->
+                <a class="side-logo" href="WebStudio"><span class="style-logo">Web</span>Studio</a>
+                <ul class="list-header">
+                    <li>
+                        <a class="site-nav" href="./index.html">Студия</a>
+                    </li>
+                    <li>
+                        <a class="site-nav" href="./portfolio.html">Портфолио</a>
+                    </li>
+                    <li>
+                        <a class="site-nav" href="Контакты">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <ul class="links-style">
                 <li>
-                    <a class="site-nav" href="./index.html">Студия</a>
+                    <a class="header-link" href="email:info@devstudio.com">info@devstudio.com</a>
                 </li>
                 <li>
-                    <a class="site-nav" href="./portfolio.html">Портфолио</a>
-                </li>
-                <li>
-                    <a class="site-nav" href="Контакты">Контакты</a>
+                    <a class="header-link" href="tel:+38096111111">+38 096 111 11 11</a>
                 </li>
             </ul>
-        </nav>
-        <ul>
-            <li>
-                <a class="header-link" href="email:info@devstudio.com">info@devstudio.com</a>
-            </li>
-            <li>
-                <a class="header-link" href="tel:+38096111111">+38 096 111 11 11</a>
-            </li>
-        </ul>
+        </div>
     </header>
     <!--Основная информация о компании-->
+
     <section class="section-title">
         <h1 class="title">Эффективные решения<br> для вашего бизнеса</h1>
         <button class="button">Заказать услугу</button>
     </section>
-    <section class="section">
-        <ul>
-            <li>
-                <h3 class="subtitle-list">Внимание к деталям</h3>
-                <p class="subtitle-text">Идейные соображения, а также<br> начало повседневной работы по<br> формированию позиции.</p>
-            </li>
-            <li>
-                <h3 class="subtitle-list">Пунктуальность</h3>
-                <p class="subtitle-text">Задача организации, в особенности<br> же рамки и место обучения кадров<br> влечет за собой.</p>
-            </li>
-            <li>
-                <h3 class="subtitle-list">Планирование</h3>
-                <p class="subtitle-text">Равным образом консультация с<br> широким активом в значительной<br> степени обуславливает.</p>
-            </li>
-            <li>
-                <h3 class="subtitle-list">Современные технологии</h3>
-                <p class="subtitle-text">Значимость этих проблем настолько<br> очевидна, что реализация плановых<br> заданий.</p>
-            </li>
-        </ul>
-    </section>
-    <!--Фото разработки команды-->
-    <main class="section">
+    <div class="block-item">
+        <section>
+            <ul class="list-section">
+                <li>
+                    <h3 class="subtitle-list">Внимание к деталям</h3>
+                    <p class="subtitle-text">Идейные соображения, а также<br> начало повседневной работы по<br> формированию позиции.</p>
+                </li>
+                <li>
+                    <h3 class="subtitle-list">Пунктуальность</h3>
+                    <p class="subtitle-text">Задача организации, в особенности<br> же рамки и место обучения кадров<br> влечет за собой.</p>
+                </li>
+                <li>
+                    <h3 class="subtitle-list">Планирование</h3>
+                    <p class="subtitle-text">Равным образом консультация с<br> широким активом в значительной<br> степени обуславливает.</p>
+                </li>
+                <li>
+                    <h3 class="subtitle-list">Современные технологии</h3>
+                    <p class="subtitle-text">Значимость этих проблем настолько<br> очевидна, что реализация плановых<br> заданий.</p>
+                </li>
+            </ul>
+        </section>
+        <!--Фото разработки команды-->
         <section>
             <h2 class="subtitle">Чем мы занимаемся</h2>
-            <ul>
+            <ul class="work-images">
                 <li><img src="./images/hw-03.png" alt="Веб разработка" height="294" width="370"></li>
                 <li><img src="./images/hw-01.png" alt="Мобильная разработка" height="294" width="370"></li>
                 <li><img src="./images/hw-02.png" alt="Цветовая палитра" height="294" width="370"></li>
             </ul>
         </section>
-        <!--Информация о команде. Фото команды-->
-        <section>
+    </div>
+    <!--Информация о команде. Фото команды-->
+    <main class="section">
+        <section class="our-team">
             <h2 class="subtitle">Наша команда</h2>
-            <ul>
+            <ul class="list-team">
                 <li><img src="./images/igor.jpg" alt="Сотрудник компании" height="260" width="270">
                     <h3 class="team-subtitle">Игорь Демьяненко</h3>
                     <p class="team-position">Product Designer</p>

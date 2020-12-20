@@ -31,6 +31,12 @@ header {
     background-color: var(--header-background-color);
 }
 
+.border-header {
+    border: 2px solid;
+    height: 80px;
+    width: 1600px;
+}
+
 .side-logo {
     color: var(--dark-color);
     font-size: 26px;
@@ -38,10 +44,12 @@ header {
     font-family: Raleway;
     font-weight: bold;
     line-height: 1.19;
+    padding: 24px 1240px 25px 215px;
+    display: inline-block;
 }
 
 .style-logo {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 
 .site-nav {
@@ -50,11 +58,21 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
+    display: flex;
+}
+
+.list-header {
+    display: flex;
 }
 
 .site-nav:hover,
 .site-nav:focus {
     color: var(--accent-color);
+}
+
+.links-style {
+    margin: 0px;
+    display: flex;
 }
 
 .header-link {
@@ -75,6 +93,10 @@ header {
 
 .section-title {
     background-color: var(--dark--background-color);
+    border: 2px;
+    height: 575px;
+    width: 1600px;
+    padding: 207px 452px 280px;
 }
 
 .title {
@@ -85,6 +107,7 @@ header {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
+    margin: 0px;
 }
 
 .button {
@@ -100,10 +123,37 @@ header {
     font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
+    border-style: none;
+    margin: 30px 250px;
+}
+
+.block-item {
+    background-color: var(--header-background-color);
+    width: 1600px;
+    height: 769px;
+    border: 2px solid;
+}
+
+.list-section {
+    display: flex;
+    margin: 0px;
 }
 
 .section {
+    width: 1600px;
     background-color: var(--main-bacround-color);
+}
+
+.work-list {
+    width: 1600px;
+    height: 769px;
+    border: 2px solid;
+}
+
+.work-images {
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
 }
 
 .subtitle-list {
@@ -113,6 +163,7 @@ header {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--dark-color);
+    margin: 0px;
 }
 
 .subtitle-text {
@@ -120,6 +171,13 @@ header {
     font-size: 15px;
     line-height: 1.71;
     color: var(--main-color);
+    margin: 0px;
+}
+
+.our-team {
+    border: 2px solid;
+    width: 1600px;
+    height: 648px;
 }
 
 .subtitle {
@@ -129,6 +187,7 @@ header {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--dark-color);
+    margin: 0px;
 }
 
 .team-subtitle {
@@ -144,6 +203,12 @@ header {
     font-size: 17px;
     line-height: 1.18;
     color: var(--main-color);
+    margin: 0px;
+}
+
+.list-team {
+    margin: 0px;
+    display: flex;
 }
 
 
@@ -151,6 +216,9 @@ header {
 
 footer {
     background-color: var(--dark--background-color);
+    border: 2px solid;
+    height: 252px;
+    width: 1600px;
 }
 
 .logo-footer {
@@ -159,7 +227,9 @@ footer {
     letter-spacing: 0.03em;
     font-family: Raleway;
     font-weight: bold;
+    /* display: inline-block; */
     line-height: 1.19;
+    padding: 60px 1240px 161px 215px;
 }
 
 .address {
@@ -168,6 +238,7 @@ footer {
     line-height: 1.74;
     font-style: normal;
     color: var(--title-color);
+    line-height: 1.19;
 }
 
 .footer-links {
@@ -175,6 +246,7 @@ footer {
     font-size: 14px;
     line-height: 1.74;
     color: var(--sec-color);
+    line-height: 1.19;
 }
 
 
