@@ -27,14 +27,23 @@ ul {
 
 /* header styles */
 
+
+/* Оформление линок в header */
+
 header {
     background-color: var(--header-background-color);
 }
 
 .border-header {
-    border: 2px solid;
+    border: 2px;
     height: 80px;
     width: 1600px;
+    align-items: baseline;
+}
+
+.item-link {
+    display: flex;
+    align-items: baseline;
 }
 
 .side-logo {
@@ -44,7 +53,8 @@ header {
     font-family: Raleway;
     font-weight: bold;
     line-height: 1.19;
-    padding: 24px 1240px 25px 215px;
+    padding-top: 24px;
+    padding-left: 215px;
     display: inline-block;
 }
 
@@ -58,10 +68,14 @@ header {
     line-height: 1.14;
     letter-spacing: 0.02em;
     font-weight: 500;
+    padding-top: 32px;
+    margin-right: 52px;
     display: flex;
 }
 
 .list-header {
+    padding-left: 93px;
+    margin: 0px;
     display: flex;
 }
 
@@ -71,8 +85,9 @@ header {
 }
 
 .links-style {
-    margin: 0px;
+    padding-left: 1039px;
     display: flex;
+    margin: 0px;
 }
 
 .header-link {
@@ -89,7 +104,7 @@ header {
 }
 
 
-/* section */
+/* Секция. Заголовок и кнопка */
 
 .section-title {
     background-color: var(--dark--background-color);
@@ -127,33 +142,41 @@ header {
     margin: 30px 250px;
 }
 
+
+/* Оформление списков секции. Фото и текст  */
+
 .block-item {
     background-color: var(--header-background-color);
     width: 1600px;
-    height: 769px;
-    border: 2px solid;
+    height: 863px;
+    border: 2px;
 }
 
 .list-section {
     display: flex;
+    justify-content: center;
     margin: 0px;
+    padding-top: 97px;
+}
+
+.list-item {
+    margin-right: 73px;
+}
+
+.work-images {
+    display: flex;
+    margin: 0px;
+    justify-content: center;
+    padding-top: 59px;
+}
+
+.images-dev {
+    margin-right: 30px;
 }
 
 .section {
     width: 1600px;
     background-color: var(--main-bacround-color);
-}
-
-.work-list {
-    width: 1600px;
-    height: 769px;
-    border: 2px solid;
-}
-
-.work-images {
-    align-items: center;
-    display: flex;
-    margin-left: 30px;
 }
 
 .subtitle-list {
@@ -172,13 +195,17 @@ header {
     line-height: 1.71;
     color: var(--main-color);
     margin: 0px;
+    padding-top: 22px;
 }
 
 .our-team {
-    border: 2px solid;
+    border: 2px;
     width: 1600px;
     height: 648px;
 }
+
+
+/* Оформление секции с командой */
 
 .subtitle {
     font-weight: bold;
@@ -188,6 +215,7 @@ header {
     letter-spacing: 0.03em;
     color: var(--dark-color);
     margin: 0px;
+    padding-top: 118px;
 }
 
 .team-subtitle {
@@ -196,6 +224,8 @@ header {
     font-weight: 500;
     font-size: 17px;
     line-height: 1.18;
+    margin: 0px;
+    justify-content: center;
 }
 
 .team-position {
@@ -204,11 +234,21 @@ header {
     line-height: 1.18;
     color: var(--main-color);
     margin: 0px;
+    justify-content: center;
 }
 
 .list-team {
     margin: 0px;
     display: flex;
+    justify-content: center;
+}
+
+.team-item {
+    padding: 0px 0px 88px 0px;
+    margin: 50px 30px 0px 0px;
+    border-radius: 0px 0px 4px 4px;
+    background-color: var(--header-background-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 
@@ -216,7 +256,7 @@ header {
 
 footer {
     background-color: var(--dark--background-color);
-    border: 2px solid;
+    border: 2px;
     height: 252px;
     width: 1600px;
 }
@@ -227,9 +267,9 @@ footer {
     letter-spacing: 0.03em;
     font-family: Raleway;
     font-weight: bold;
-    /* display: inline-block; */
+    display: inline-block;
     line-height: 1.19;
-    padding: 60px 1240px 161px 215px;
+    padding: 60px 0px 0px 215px;
 }
 
 .address {
@@ -239,6 +279,9 @@ footer {
     font-style: normal;
     color: var(--title-color);
     line-height: 1.19;
+    padding: 35px 0px 0px 215px;
+    margin: 0px;
+    display: inline-block;
 }
 
 .footer-links {
@@ -247,6 +290,8 @@ footer {
     line-height: 1.74;
     color: var(--sec-color);
     line-height: 1.19;
+    padding: 22px 0px 0px 215px;
+    display: inline-block;
 }
 
 
