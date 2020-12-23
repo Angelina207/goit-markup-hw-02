@@ -37,7 +37,7 @@ header {
 
 .border-header {
     display: flex;
-    padding: 40px 1600px 0px 0px;
+    padding: 20px 0;
 }
 
 .item-link {
@@ -54,7 +54,6 @@ header {
     padding: 0px 0px 0px 215px;
     margin: 0px 0px 0px 0px;
     display: inline-block;
-    text-align: center;
 }
 
 .style-logo {
@@ -75,7 +74,7 @@ header {
 .list-header {
     padding-left: 93px;
     margin: 0px 0px 0px 0px;
-    text-align: center;
+    align-items: center;
     display: flex;
 }
 
@@ -86,6 +85,7 @@ header {
 
 .links-style {
     display: flex;
+    align-items: center;
     margin: 0px 0px 0px 0px;
 }
 
@@ -109,7 +109,6 @@ header {
 .line-header {
     border: 1px solid var(--line-color-header);
     margin: 0px;
-    width: 1600px;
 }
 
 
@@ -117,7 +116,8 @@ header {
 
 .section-title {
     background-color: var(--dark--background-color);
-    padding: 200px 452px 200px;
+    padding: 200px 0px 200px 0px;
+    text-align: center;
 }
 
 .title {
@@ -257,7 +257,7 @@ header {
 
 footer {
     background-color: var(--dark--background-color);
-    padding: 0px 0px 252px 0px;
+    padding: 60px 0px 60px 0px;
 }
 
 .logo-footer {
@@ -278,7 +278,7 @@ footer {
     font-style: normal;
     color: var(--title-color);
     line-height: 1.19;
-    padding: 0px 0px 0px 215px;
+    padding: 20px 0px 0px 215px;
     margin: 0px;
     display: inline-block;
 }
@@ -289,7 +289,7 @@ footer {
     line-height: 1.74;
     color: var(--sec-color);
     line-height: 1.19;
-    padding: 0px 0px 0px 215px;
+    padding: 9px 0px 0px 215px;
     display: inline-block;
 }
 
