@@ -153,8 +153,11 @@ header {
 
 .block-item {
     background-color: var(--header-background-color);
-    border: 2px;
     padding-top: 94px;
+}
+
+.text-info {
+    padding: 0px 30px 0px 0px;
 }
 
 .list-section {
@@ -169,11 +172,11 @@ header {
     display: flex;
     margin: 0px;
     justify-content: center;
-    padding: 59px 0px 94px 0px;
+    padding: 0px;
 }
 
 .images-dev {
-    padding: 0px 30px 0px 0px;
+    padding: 54px 30px 0px 0px;
 }
 
 .subtitle-list {
@@ -195,11 +198,16 @@ header {
     padding-top: 22px;
 }
 
+.company-dev {
+    padding: 59px 0px 94px 0px;
+}
+
 
 /* Оформление секции с командой */
 
 .our-team {
     background-color: var(--main-bacround-color);
+    padding: 94px 0px 94px 0px;
 }
 
 .subtitle {
@@ -210,7 +218,7 @@ header {
     letter-spacing: 0.03em;
     color: var(--dark-color);
     margin: 0px;
-    padding: 94px 0px 0px 0px;
+    padding: 0px;
 }
 
 .team-subtitle {
@@ -236,7 +244,7 @@ header {
 
 .list-team {
     margin: 0px;
-    padding: 50px 0px 94px 0px;
+    padding: 50px 0px 0px 0px;
     display: flex;
     justify-content: center;
 }
@@ -295,7 +303,7 @@ footer {
 
 .section-portfolio {
     background-color: var(--header-background-color);
-    padding: 114px 0px 0px 0px;
+    padding: 94px 0px 94px 0px;
 }
 
 .btn {
@@ -344,23 +352,26 @@ footer {
 
 .headlist {
     width: 370px;
-    letter-spacing: 0.06em;
-    font-weight: bold;
-    font-size: 17px;
-    line-height: 2;
     color: var(--dark-color);
     padding: 20px 24px 20px;
 }
 
 .text-title {
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    font-weight: 700;
 }
 
 .headline-text {
     letter-spacing: 0.03em;
     color: var(--main-color);
     font-size: 16px;
-    line-height: 1.87;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
+    line-height: 30px;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
 }
