@@ -41,12 +41,17 @@ ul {
 
 header {
     background-color: var(--header-background-color);
-    padding: 20px 0;
+    padding: 20px 0 20px;
+}
+
+.header-nav {
     display: flex;
+    align-items: center;
 }
 
 .item-link {
     display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -72,13 +77,13 @@ header {
     letter-spacing: 0.02em;
     font-weight: 500;
     padding: 0px 50px 0px 0px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     display: flex;
 }
 
 .list-header {
     padding-left: 93px;
-    margin: 0px 0px 0px 0px;
+    margin: 0px;
     align-items: center;
     display: flex;
 }
@@ -90,17 +95,18 @@ header {
 
 .links-style {
     display: flex;
-    align-items: center;
-    margin: 0px 0px 0px 0px;
+    margin: auto;
 }
 
 .header-link {
-    padding: 0px 50px 0px 0px;
+    margin: 0px 50px 0px 0px;
     color: var(--main-color);
     font-weight: 500;
     font-size: 15px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
 }
 
 .header-link:hover,
@@ -121,6 +127,8 @@ header {
 
 .section-title {
     background-color: var(--dark--background-color);
+    background-image: url('../images/team.jpg');
+    background-size: cover;
     padding: 200px 0px 200px 0px;
     text-align: center;
 }
@@ -345,7 +353,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin: 0px;
+    margin: 0;
     padding: 50px 0px 0px 0px;
 }
 
@@ -353,6 +361,14 @@ footer {
     margin: 0px 0px 30px 0px;
     padding: 0px;
     border: 1px solid var(--line-color-header);
+}
+
+.space-item {
+    margin-right: 27px;
+}
+
+.list-item:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .headlist {
